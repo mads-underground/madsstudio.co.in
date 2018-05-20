@@ -8,16 +8,22 @@ class DefaultController extends Controller
 	 * Home Page Controller
 	 * @pram 
  	 */	
-	function index()
+	public function index()
 	{
 		$data['title'] = 'Home';
 		return view('home',$data);
 	}
 
-	function about()
+	public function about()
 	{
 		$data['title'] = 'About';
 		return view('about',$data);	
+	}
+
+	public function contactUs()
+	{
+		$data['title'] = 'Contact Us';
+		return view('contact',$data);	
 	}
 }
 ?>

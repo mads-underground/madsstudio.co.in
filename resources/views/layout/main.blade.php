@@ -50,10 +50,10 @@
           <div class="col-md-8 text-center">
             <ul class="main-nav">
               <li><a href="{{ url('') }}">Home</a></li>
-              <li class="active"><a href="{{ url('about') }}">About</a></li>
+              <li><a href="{{ url('about') }}">About</a></li>
               {{-- <li><a href="#}}">Services</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Contact</a></li> --}}
+              <li><a href="#">Portfolio</a></li> --}}
+              <li><a href="{{ url('contact') }}">Contact</a></li>
             </ul>
           </div>
           <div class="col-md-2">
@@ -80,9 +80,9 @@
                 <li><a href="{{ url('') }}">Home</a></li>
                 <li><a href="{{ url('about') }}">About</a></li>
                 {{-- <li><a href="#">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Terms</a></li>
+                <li><a href="#">Portfolio</a></li> --}}
+                <li><a href="{{ url('contact') }}">Contact</a></li>
+                {{-- <li><a href="#">Terms</a></li>
                 <li><a href="#">Privacy Policy</a></li> --}}
               </ul>
             </div>
