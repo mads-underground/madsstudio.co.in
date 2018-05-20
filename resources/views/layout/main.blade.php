@@ -82,14 +82,13 @@
                 {{-- <li><a href="#">Services</a></li>
                 <li><a href="#">Portfolio</a></li> --}}
                 <li><a href="{{ url('contact') }}">Contact</a></li>
-                {{-- <li><a href="#">Terms</a></li>
-                <li><a href="#">Privacy Policy</a></li> --}}
+                {{-- <li><a href="#">Terms</a></li> --}}
+                {{-- <li><a href="#">Privacy Policy</a></li> --}}
               </ul>
             </div>
-
             <div class="col-md-2 padding-tb50">
               <ul>
-                <li><a href="{{ url('dashboard') }}">Dashboard</a></li> 
+                <li><a href="{{ url('admin') }}">Dashboard</a></li> 
                 {{-- <li><a href="#">Team</a></li>
                 <li><a href="#">Comapny</a></li>
                 <li><a href="#">Careers</a></li>
