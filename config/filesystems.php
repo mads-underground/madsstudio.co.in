@@ -48,6 +48,11 @@ return [
             'root' => storage_path('app'),
         ],
 
+        'server' => [
+            'driver' => 'local',
+            'root' => base_path('uploads'),
+        ],
+
         'public' => [
             'driver' => 'local',
             'root' => storage_path('app/public'),
@@ -66,3 +71,4 @@ return [
     ],
 
 ];
+dd(storage_path());
