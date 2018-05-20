@@ -44,7 +44,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-2">
-            <a href="index.php"><img src="{{ setting('site.logo') }}" alt="Logo" class="main-nav-logo"></a>
+            <a href="index.php"><img src="{{ url('app/public/').setting('site.logo') }}" alt="Logo" class="main-nav-logo"></a>
             <span class="ti-menu nav-btn-open hidden-md hidden-lg"></span>
           </div>
           <div class="col-md-8 text-center">
@@ -70,7 +70,7 @@
         <div class="row">
           <div class="col-md-12 col-md-offset-0 col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1">
             <div class="col-md-4 padding-tb50">
-              <img src="{{ setting('site.flogo') }}" class="footerlogo" alt="">
+              <img src="{{ url('app/public/').setting('site.flogo') }}" class="footerlogo" alt="">
               <p class="footer-info-text">{{ setting('site.description') }}</p>
               <p class="copyright">&copy; 2016 The Buzline theme</p>
             </div>
