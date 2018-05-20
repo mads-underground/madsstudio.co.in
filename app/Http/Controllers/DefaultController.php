@@ -25,5 +25,10 @@ class DefaultController extends Controller
 		$data['title'] = 'Contact Us';
 		return view('contact',$data);	
 	}
+
+	// public function pages($slug){
+	// 	$data['title'] = 'sample page';
+	// 	return view('page',$data);
+	// }
 }
 ?>
