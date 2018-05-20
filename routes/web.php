@@ -15,6 +15,6 @@ Route::get('/','DefaultController@index');
 Route::get('/about','DefaultController@about');
 Route::get('/contact','DefaultController@contactUs');
 
-Route::group(['prefix' => 'admin'], function () {
+Route::group(['prefix' => 'dashboard'], function () {
     Voyager::routes();
 });
