@@ -13,8 +13,8 @@
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" href="images/favicon.png">
-    <link rel="icon" href="{{ setting('site.favicon') }}_" type="image/png">
-    <link rel="shortcut icon" href="{{ setting('site.favicon') }}" type="image/x-icon">
+    <link rel="icon" href="{{ url('storage/app/public').'/'.setting('site.favicon') }}_" type="image/png">
+    <link rel="shortcut icon" href="{{ url('storage/app/public').'/'.setting('site.favicon') }}" type="image/x-icon">
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700">
@@ -44,7 +44,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-2">
-            <a href="index.php"><img src="{{ url('app/public/').setting('site.logo') }}" alt="Logo" class="main-nav-logo"></a>
+            <a href="index.php"><img src="{{ url('storage/app/public').'/'setting('site.logo') }}" alt="Logo" class="main-nav-logo"></a>
             <span class="ti-menu nav-btn-open hidden-md hidden-lg"></span>
           </div>
           <div class="col-md-8 text-center">
@@ -70,7 +70,7 @@
         <div class="row">
           <div class="col-md-12 col-md-offset-0 col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1">
             <div class="col-md-4 padding-tb50">
-              <img src="{{ url('app/public/').setting('site.flogo') }}" class="footerlogo" alt="">
+              <img src="{{ url('storage/app/public').'/'.setting('site.flogo') }}" class="footerlogo" alt="">
               <p class="footer-info-text">{{ setting('site.description') }}</p>
               <p class="copyright">&copy; 2016 The Buzline theme</p>
             </div>
