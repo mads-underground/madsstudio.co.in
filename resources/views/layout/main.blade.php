@@ -72,7 +72,7 @@
             <div class="col-md-4 padding-tb50">
               <img src="{{ url('storage/app/public').'/'.setting('site.flogo') }}" class="footerlogo" alt="">
               <p class="footer-info-text">{{ setting('site.description') }}</p>
-              <p class="copyright">&copy; {{ data('Y') }} {{ setting('site.copyright') }}</p>
+              <p class="copyright">&copy; {{ date("Y") }} {{ setting('site.copyright') }}</p>
             </div>
 
             <div class="col-md-2 padding-tb50">
