@@ -39,7 +39,9 @@
               <span class="icon ti-location-pin"></span>
             </div>
 
-            <p class="col-md-9 col-xs-12">{{ setting('site.address') }}</p>
+            <p class="col-md-9 col-xs-12">
+                    {!! setting('site.address') !!}
+            </p>
           </div>
 
           <div class="col-md-12 col-sm-12 col-xs-12 contact_detail">
