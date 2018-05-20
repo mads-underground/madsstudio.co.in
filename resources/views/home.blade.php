@@ -117,7 +117,7 @@
           </p>
           <a href="#" class="btn login-btn">GET STARTED</a>
         </div>
-        <div class="col-md-6 col-xs-12 parallax-window" data-parallax="scroll" data-image-src="images/whoweare.jpg" data-speed="0.4">
+        <div class="col-md-6 col-xs-12 parallax-window" data-parallax="scroll" data-image-src="{{ asset('assets/frontend/images/whoweare.jpg') }}" data-speed="0.4">
         </div>
       </div>
     </div>

@@ -71,8 +71,7 @@
           <div class="col-md-12 col-md-offset-0 col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1">
             <div class="col-md-4 padding-tb50">
               <img src="{{ setting('site.flogo') }}" class="footerlogo" alt="">
-              <p class="footer-info-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Volu ptaonsec tetur adiu ptaonsec tetur adipisicing
-                elit. Volu ptatu pis icing elit. Vditiis.</p>
+              <p class="footer-info-text">{{ setting('site.description') }}</p>
               <p class="copyright">&copy; 2016 The Buzline theme</p>
             </div>
 
