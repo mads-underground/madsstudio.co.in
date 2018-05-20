@@ -102,19 +102,19 @@
                 <div>
                   <span class="glyphicon glyphicon-map-marker"></span>
                   <p>
-                    164/9 Orchard St,New York,<br> NY 10002, United States.
+                    {{ setting('site.address') }}
                   </p>
                 </div>
 
                 <div>
                   <span class="glyphicon glyphicon-envelope"></span>
-                  <a href="#">{{ 'contact@buzline.com' }}</a>
+                  <a href="mailto:{{ setting('site.email') }}">{{ setting('site.email') }}</a>
                 </div>
 
 
                 <div>
                   <span class="glyphicon glyphicon-earphone"></span>
-                  <p> +1 6485 658956</p>
+                  <p> {{ setting('site.phone') }}</p>
                 </div>
                 <div class="socialnlinks">
                   <a href="#"><span class="ti-facebook"></span></a>
