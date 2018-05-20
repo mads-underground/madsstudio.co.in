@@ -117,10 +117,10 @@
                   <p> {{ setting('site.phone') }}</p>
                 </div>
                 <div class="socialnlinks">
-                  <a href="{{ setting('social.facebook') }}"><span class="ti-facebook"></span></a>
+                  <a href="{{ setting('social.facebook') }} " target="_blank"><span class="ti-facebook"></span></a>
                   {{-- <a href="{{ setting('social.instagram') }}"><span class="ti-instagram"></span></a> --}}
                   {{-- <a href="{{ setting('social.twitter') }}"><span class="ti-twitter"></span></a> --}}
-                  <a href="{{ setting('social.linkedin') }}"><span class="ti-linkedin"></span></a>
+                  <a href="{{ setting('social.linkedin') }}" target="_blank"><span class="ti-linkedin"></span></a>
                 </div>
               </div>
             </div>
