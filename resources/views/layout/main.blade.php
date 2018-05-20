@@ -102,7 +102,7 @@
                 <div>
                   <span class="glyphicon glyphicon-map-marker"></span>
                   <p>
-                    {{ setting('site.address') }}
+                    {!! setting('site.address') !!}
                   </p>
                 </div>
 
