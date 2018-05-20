@@ -13,5 +13,11 @@ class DefaultController extends Controller
 		$data['title'] = 'Home';
 		return view('home',$data);
 	}
+
+	function about()
+	{
+		$data['title'] = 'About';
+		return view('about',$data);	
+	}
 }
 ?>

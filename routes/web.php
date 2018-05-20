@@ -12,7 +12,7 @@
 */
 
 Route::get('/','DefaultController@index');
-
+Route::get('/about','DefaultController@about');
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();

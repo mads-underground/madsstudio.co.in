@@ -50,24 +50,7 @@
   </section>
   <!-- flexslider end -->
 
-  <!-- what we do  -->
-  <section id="whatwedo" class="padding-tb100">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <h4 class="h4-type2">What We Do</h4>
-          <div class="border-bar2 margin-t20 "></div>
-          <p class="p-type-3 color-grey margin-t20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum ut alias ullam tempore nobis asperiores corporis
-            velit rem blanditiis! Ipsum facere, quae distinctio tempore, quas fugiat labore. Aliquid officiis, porro. tempore
-            nobis asperiores corporis velit rem blanditiis! Ipsum facere, quae distinctio tempore, quas fugiat labore. Aliquid
-            officiis, porro.
-          </p>
-        </div>
-      </div>
-
-    </div>
-  </section>
-  <!-- what we do  end-->
+  @include('widget.about-what')
 
   <!-- features -->
   <section id="features" class="padding-tb100 bg-grey">
@@ -103,26 +86,7 @@
 
 
 
-  <!-- who we are -->
-  <section id="whoweare">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-md-offset-0 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 padding-tb100">
-          <h4 class="h4-type2 margin-t10">Who We Are</h4>
-          <div class="border-bar margin-t20 "></div>
-          <p class="p-type-5 color-grey margin-t20">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-            a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged.
-          </p>
-          <a href="#" class="btn login-btn">GET STARTED</a>
-        </div>
-        <div class="col-md-6 col-xs-12 parallax-window" data-parallax="scroll" data-image-src="{{ asset('assets/frontend/images/whoweare.jpg') }}" data-speed="0.4">
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- who we are end-->
+  @include('widget.about-who')
 
   <!-- services -->
   <section id="services" class="padding-tb100 bg-grey">
@@ -310,44 +274,7 @@
     </section>
     <!-- testimonial end-->
 
-    <!-- clients -->
-    <section id="clients" class="padding-tb50">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="clients">
-              <ul class="slides text-center">
-                <li>
-                  <img src="{{ asset('assets/frontend/images/brands/1.png') }}" alt="">
-                </li>
-                <li>
-                  <img src="{{ asset('assets/frontend/images/brands/2.png') }}" alt="">
-                </li>
-                <li>
-                  <img src="{{ asset('assets/frontend/images/brands/3.png') }}" alt="">
-                </li>
-                <li>
-                  <img src="{{ asset('assets/frontend/images/brands/4.png') }}" alt="">
-                </li>
-                <li>
-                  <img src="{{ asset('assets/frontend/images/brands/1.png') }}" alt="">
-                </li>
-                <li>
-                  <img src="{{ asset('assets/frontend/images/brands/2.png') }}" alt="">
-                </li>
-                <li>
-                  <img src="{{ asset('assets/frontend/images/brands/3.png') }}" alt="">
-                </li>
-                <li>
-                  <img src="{{ asset('assets/frontend/images/brands/4.png') }}" alt="">
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- clients end -->
+    @include('widget.client')
 
 @stop
 
