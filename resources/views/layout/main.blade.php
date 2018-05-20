@@ -44,7 +44,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-2">
-            <a href="index.php"><img src="{{ url('storage/app/public').'/'setting('site.logo') }}" alt="Logo" class="main-nav-logo"></a>
+            <a href="index.php"><img src="{{ url('storage/app/public').'/'.setting('site.logo') }}" alt="Logo" class="main-nav-logo"></a>
             <span class="ti-menu nav-btn-open hidden-md hidden-lg"></span>
           </div>
           <div class="col-md-8 text-center">
